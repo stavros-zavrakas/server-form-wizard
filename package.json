@@ -1,0 +1,22 @@
+{
+  "name": "server-form-wizard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stavros-zavrakas/server-form-wizard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stavros-zavrakas/server-form-wizard/issues"
+  },
+  "homepage": "https://github.com/stavros-zavrakas/server-form-wizard",
+  "dependencies": {
+    "hmpo-form-wizard": "^4.1.0"
+  }
+}

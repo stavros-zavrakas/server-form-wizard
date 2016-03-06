@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node-sass ./assets/app.scss ./assets/app.css --include-path ./node_modules",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,21 @@
   },
   "homepage": "https://github.com/stavros-zavrakas/server-form-wizard",
   "dependencies": {
-    "hmpo-form-wizard": "^4.1.0"
+    "body-parser": "^1.12.2",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.12.3",
+    "express-session": "^1.13.0",
+    "express-partial-templates": "^0.1.0",
+    "hmpo-form-controller": "0.0.6",
+    "hmpo-form-wizard": "^4.1.0",
+    "hmpo-frontend-toolkit": "^1.0.3",
+    "hmpo-govuk-template": "0.0.3",
+    "hmpo-model": "^0.1.1",
+    "hmpo-template-mixins": "^0.1.9",
+    "hogan-express-strict": "^0.5.3",
+    "i18n-lookup": "^0.1.0",
+    "i18next": "^1.7.10",
+    "node-sass": "^2.1.1",
+    "underscore": "^1.8.3"
   }
 }
